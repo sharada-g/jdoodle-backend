@@ -60,7 +60,9 @@ const challenges = [
         output: "console.log(test(result, 3000));",
       },
     ],
+    output: "",
     answer: "",
+
     tested: false,
   },
   {
@@ -124,7 +126,9 @@ const challenges = [
         output: "console.log(test(result, 100));",
       },
     ],
+    output: "",
     answer: "",
+
     tested: false,
   },
   {
@@ -186,7 +190,9 @@ const challenges = [
         output: "console.log(test(result, '%$#@!'));",
       },
     ],
+    output: "",
     answer: "",
+
     tested: false,
   },
   {
@@ -248,7 +254,9 @@ const challenges = [
         output: "console.log(test(result, 3628800));",
       },
     ],
+    output: "",
     answer: "",
+
     tested: false,
   },
   {
@@ -310,7 +318,9 @@ const challenges = [
         output: "console.log(test(result, 4));",
       },
     ],
+    output: "",
     answer: "",
+
     tested: false,
   },
   {
@@ -372,7 +382,9 @@ const challenges = [
         output: "console.log(test(result, false));",
       },
     ],
+    output: "",
     answer: "",
+
     tested: false,
   },
   {
@@ -437,7 +449,9 @@ const challenges = [
         output: "console.log(test(result, '1, 2, Fizz'));",
       },
     ],
+    output: "",
     answer: "",
+
     tested: false,
   },
 ];

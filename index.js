@@ -25,6 +25,20 @@ app.use("/testimonials", testimonialsRoute);
 app.use("/leaderboard", leaderboardRoute);
 app.use("/challenges", challengesRoute);
 
+app.post("/token", async (req, res) => {
+  console.log(req.body);
+  try {
+    const response = await axios.post(
+      "https://api.jdoodle.com/v1/auth-token",
+      req.body
+    );
+    console.log(response.data);
+    res.json(response.data);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
 app.post("/execute", async (req, res) => {
   try {
     const response = await axios.post(
